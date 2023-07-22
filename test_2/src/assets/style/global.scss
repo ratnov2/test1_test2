@@ -1,0 +1,23 @@
+@import "./variables.scss";
+@import "./normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Montserrat&display=swap");
+
+body {
+ margin: 0;
+ font-family: "Inter", sans-serif;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ background-color: $main_bg;
+ line-height: normal;
+ color: $color_light;
+}
+ul {
+ padding: 0;
+}
+li {
+ list-style-type: none;
+}
+a {
+ text-decoration: none;
+ color: $color_light;
+}
